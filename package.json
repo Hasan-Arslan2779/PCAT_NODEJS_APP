@@ -1,0 +1,27 @@
+{
+  "name": "pcat_nodejs_app",
+  "version": "1.0.0",
+  "description": "PCAT PHOTO APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasan-Arslan2779/PCAT_NODEJS_APP.git"
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camrea"
+  ],
+  "author": "Hasan Arslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hasan-Arslan2779/PCAT_NODEJS_APP/issues"
+  },
+  "homepage": "https://github.com/Hasan-Arslan2779/PCAT_NODEJS_APP#readme",
+  "devDependencies": {
+    "prettier": "3.4.2"
+  }
+}
