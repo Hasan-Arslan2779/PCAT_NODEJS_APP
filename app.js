@@ -12,9 +12,19 @@ const pageController = require('./controllers/pageContoller');
 const app = express();
 
 // Connect DB
-mongoose.connect('mongodb://localhost/pcat-test-db', {
-  serverSelectionTimeoutMS: 5000, // 5 saniye
-});
+mongoose
+  .connect(
+    'mongodb+srv://hasanar2779:20Ebb3gxCnEaz9Xr@cluster0.dwgo6.mongodb.net/',
+    {
+      serverSelectionTimeoutMS: 5000, // 5 saniye
+    }
+  )
+  .then(() => {
+    console.log('Db bağlandı');
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 
 //? TEMPLATE ENGINE
 app.set('view engine', 'ejs');
